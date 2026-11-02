@@ -1,0 +1,13 @@
+[project]
+name = "verity"
+version = "0.1.0"
+description = "Self-correcting research agent that drafts, searches the live web, and revises answers with citations."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "grandalf>=0.8",
+    "langchain-openai>=1.7.3",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.2.18",
+    "python-dotenv>=1.2.4",
+]
